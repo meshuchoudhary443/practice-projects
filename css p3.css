@@ -1,0 +1,85 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font: size 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:blanchedalmond;
+
+}
+.pimg1{
+    background-image: url(https://wallpapers.com/images/high/village-pictures-m0isu4yquixtzdzh.webp);
+    min-height: 100%;
+
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.pimg2{
+    background-image: url(https://wallpapers.com/images/high/land-pictures-ppw6klyg0acj36jz.webp);
+    min-height: 400px;
+}
+
+.pimg3{
+        background-image: url(https://wallpapers.com/images/high/nusa-penida-beach-bali-indonesia-3vaxtfhv75oo1bqd.webp);
+        min-height: 400px;  
+} 
+.pimg1,
+.pimg2 ,
+.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*
+    for paralllax efffect
+    */
+    background-attachment: fixed;
+
+
+}
+.ptext{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+
+
+
+
+
+
+}
+.textBg{
+    background-color: beige;
+    color: black;
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+
+
+
+}
+.section-light{
+    background-color: rgb(248, 247, 245);
+    color: grey;
+}
+.section-light2{
+    background-color:rgb(38, 36, 36) ;
+    color: rgb(240, 236, 236);
+}
+.section-light3{
+    background-color: rgb(61, 59, 59);
+    color: rgb(240, 236, 236);
+}
